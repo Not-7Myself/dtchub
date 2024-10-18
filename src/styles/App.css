@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+/* Sidebar responsive styles */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 60px;
+    .text {
+      display: none;
+    }
+  }
+}
